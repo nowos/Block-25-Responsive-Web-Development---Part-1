@@ -13,14 +13,14 @@ h4 > a{
    max-height: 500px; 
    float:left;
    margin: 0;
-   width: 100vmax; 
+   width: 100%; 
 }
 
 .jumbotron{ 
    border-bottom: 2px solid black !important;
    max-height: 250px;
-   width: 100vmax;
-   height: 100vmax;
+   width: 100%;
+   height: 100%;
    float:left;
    margin: 0;
    padding: 0;
@@ -158,7 +158,8 @@ navbar-collapse{
 }
 
 /*types of freedom*/
-
+.jumbotron2{
+}
 .jumbotron2 > section {
    max-width:1000px;
    margin: 0 auto; 
