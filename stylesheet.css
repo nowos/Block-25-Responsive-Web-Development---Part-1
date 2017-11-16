@@ -1,5 +1,3 @@
-
-
 body{
    background-color:#ffffb7 !important;
 }
@@ -11,13 +9,15 @@ p{
 h4 > a{
    font-size: 18px; 
 }
+.logo{
+   margin: 20px 10px; 
+}
 .container1 {
    max-height: 500px; 
    float:left;
    margin: 0;
    width: 100%;  
 }
-
 .jumbotron{ 
    border-bottom: 2px solid black !important;
    max-height: 250px;
@@ -27,7 +27,6 @@ h4 > a{
    margin: 0;
    padding: 0;
 }
-
 .display-3 {
    font-size: 30px !important;
    color: blue !important;
@@ -35,7 +34,6 @@ h4 > a{
    text-align: center !important;
    font-family: 'Playfair Display SC', serif !important;
 }
-
 /*content*/
 .containerContent{
    max-width:1000px;
@@ -60,31 +58,23 @@ h4 > a{
    height: 55px;
    width: 55px;
 }
-
 .lead {
-
 }
-/*koniec naglówka*/
-
+/*Navigation*/
 .navigation{
    margin-top: 50em;
    max-width: 1000px; 
    margin: 0 auto;
    padding: 0;
 }
-
 #navbarNav {
 }
-
 .navbar.navbar-expand-lg.navbar-light.bg-light {
 }
-
 .navbar-brand {
 }
-
 .navbar-toggler {
 }
-
 .navbar-toggler-icon {
 }
 .collapse > ul {
@@ -92,73 +82,47 @@ h4 > a{
    margin: 0 auto; 
 } 
 navbar-collapse{
-
 }
-
 .navbar-nav {
 }
-
 .nav-item.active {
 }
-
 .nav-link {
 }
-
 .sr-only {
 }
-
 .nav-item {
 }
-
 .nav-link.disabled {
 }
-
-/*koniec nawigacji*/
-
-
-
 /*freedom images carousel*/
 
 #carouselExampleIndicators {
    max-width: 1000px; 
    margin: 0 auto; 
 }
-
 .carousel-indicators {
 }
-
 .active {
 }
-
 .carousel-inner {
 }
-
 .carousel-item.active {
 }
-
 .d-block.w-100 {
-
 }
-
 .carousel-item {
-
 }
-
 .carousel-control-prev {
 }
-
 .carousel-control-prev-icon {
 }
-
 .sr-only {
 }
-
 .carousel-control-next {
 }
-
 .carousel-control-next-icon {
 }
-
 /*types of freedom*/
 
 .jumbotron2 > section {
@@ -174,22 +138,58 @@ navbar-collapse{
 .jumbotron2 > section > h2{
    font-size: 20px;
 }
-
 .display2-3 {
 }
-
 .lead2 {
 
 }
-
 .my2-4 {
 }
-
 .btn.btn-primary.btn-lg {
 }
-
+/*media screen*/
 
 @media screen and (min-width: 736px) and (max-width:1000px){
+   
+   .navigation{
+      width: 100%;  
+   }
+   .navbar-toggler{
+      float: left; 
+   }
+}
+@media screen and (min-width: 1px) and (max-width: 735px) { 
+   
+   .social img{
+      height: 30px;
+      width: 30px;
+   }
+   .display-3 {
+      visibility:hidden;
+   }
+   .social{
+      visibility:hidden; 
+   }
+   .navigation{
+      width: 100%;  
+   }
+   .navbar-toggler{
+      float: left ;
+   }
+   body{
+      margin:10px 10px; 
+   }
+   .logo{
+      width: 240px;
+      height: 111px;
+      margin: 0 auto;
+      margin-left: 10px;
+   }
+   .jumbotron{
+      max-height: 170px; 
+
+@media screen and (min-width: 736px) and (max-width:1000px){
+   
    .navigation{
       max-width: 700px;  
    }
@@ -216,6 +216,4 @@ navbar-collapse{
    .navbar-toggler{
       margin: 0 auto; 
    }
-
 }
-
